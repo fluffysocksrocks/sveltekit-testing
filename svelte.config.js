@@ -16,7 +16,7 @@ const config = {
 			strict: true
 		}),
 		paths: {
-			base: process.argv.includes('dev') ? '' : '/sveltekit-testing'
+			base: process.argv.includes('dev') ? '' : '/sveltekit-demo'
 		}
 	}
 };
